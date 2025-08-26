@@ -42,6 +42,13 @@ body {
   flex: 1;
 }
 
+.hero .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .hero .description .main-text {
   color: #F9FAF8;
   font-size: 48px;
