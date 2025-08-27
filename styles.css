@@ -77,3 +77,42 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.info {
+  padding: 20px 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.info .info-title {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.info .collage {
+  display: flex;
+}
+
+.collage .info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-item-img {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #3882F6;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.info-img-text {
+  font-size: 18px;
+  padding: 0 30px;
+  color: #1F2937;
+  text-align: center;
+}
