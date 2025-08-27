@@ -61,12 +61,13 @@ body {
   font-size: 18px;
 }
 
-.hero button {
+.hero button,
+.action-button {
   background-color: #3882F6;
   color: #F9FAF8;
   padding: 10px 30px;
   border: none;
-  border-radius: 7px;
+  border-radius: 10px;
   font-size: 18px;
   font-weight: 700;
 }
@@ -132,4 +133,36 @@ body {
   text-align: right;
   font-size: 24px;
   font-weight: bold;
+}
+
+.action-section {
+  padding: 100px 400px;
+}
+
+.action-bubble {
+  background-color: #3882F6;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-main-text,
+.action-secondary-text {
+  margin: 0;
+}
+
+.action-main-text {
+  font-size: 28px;
+}
+
+.action-secondary-text {
+  color: #E5E7EB;
+  font-size: 20px;
+}
+
+.action-button {
+  border: 2px solid #F9FAF8;
 }
